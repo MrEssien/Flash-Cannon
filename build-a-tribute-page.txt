@@ -1,0 +1,55 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main id='main'>
+      <h1 id='title'><un>Arsenal Football Club</h1>
+      <figure id='img-div'>
+        <img id='image'
+        src='https://vedcdn.imgix.net/images/product/large/arsenal-emirates-stadium-tour-22130453.jpg?auto=compress,format'/>
+        <figcaption id='img-caption'>The Emriates stadium</figcaption>
+      </figure>
+      <div>
+    <section id="tribute-info">    
+      <h2>Arsenal Club Histoty</h2> 
+     In 2006, they moved to the nearby <strong>Emirates Stadium</strong>. With an annual revenue of £340.3m in the 2019–20 season,Arsenal was estimated to be worth US$2.68 billion by Forbes, making it the world's eighth most valuable club,while it is one of the most followed on social media.The motto of the club has long been Victoria Concordia Crescit, Latin for <em>"Victory Through Harmony".</em></p>
+  <h3> Major Honor's</h3  
+<ul>
+  <li>13 League titles</li>
+
+  <li>A record 14 FA cup's</li>
+
+  <li>2 league cup's</li>
+  <li>16 FA Community Sheild</li>
+</ul>
+<h3>
+          If you have time, you should read more about the club on it's offical page<a
+            id="tribute-link"
+            href="https://www.arsenal.com/"
+            target="_blank"
+            > Arsenal FC</a
+          >.
+     </section>
+    </main>
+  </body>
+ </html>   
+
+
+** end of undefined **
+
+** start of undefined **
+
+h1{
+  color:red;
+font-size:50px;
+  }
+  #image{     display:block;  max-width:100%;
+  }
+
+
+** end of undefined **
+
