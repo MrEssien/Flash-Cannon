@@ -1,0 +1,91 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+ <body>
+  <head>
+   <link rel="stylesheet" href="styles.css"> 
+  </head>
+  <main id="main-doc">
+    <h1>Aerospace Engineering</h1>
+    <br></br>
+    <div>
+      <section class="main-section" id="Introduction">
+       <header>Introduction</header>
+         <p>Aerospace engineers are responsible for some of the most incredible feats of mankind.</p>
+         <ul>
+           <li>Design</li>
+           <li>Analysis</li>
+           <li>Testing</li>
+           <li>Quality control</li>
+           <li>Efficiency</li>
+          </ul> 
+         <p>The foundation level courses are Mechanics, Solid Mechanics, Fluid Mechanics, Thermodynamics, Heat Transfer and Materials Science.</p>
+       
+   </div>
+      </section>
+    <div>
+      <section class="main-section" id="Why_we_need_to_understand_basic_concepts">
+        <header>Why we need to understand basic concepts</header> 
+          <p>They get an education in the basics of math, <code>physics</code>, and chemistry with more advanced studies in propulsion, aerodynamics, sensors, power generation, and other <code>scientific</code> topics.</p>
+          <p>Since the time of Da Vinci, brilliant minds have designed and sketched different flying machines, but never brought them to fruition</p>
+        
+
+      </section>
+     </div>
+     <div>
+       <section class="main-section" id="Basic_engineering_principles">
+         <header>Basic engineering principles</header>
+           <p>Both, general aerospace engineers and Aeronautical engineers study these topics, but aerospace engineers may work on the <code>spacecraft</code> that goes outside of the earth's atmosphere, in the field known as astronautical engineering.</p>
+           <p>Aerospace technology is a broad field since planes, spacecraft and other flying objects have so many components to them <code>in</code> modern times. It includes everything from propulsion systems to airplane wings and helicopter blades.</p>
+         
+        </section>
+      </div>
+      <div>
+        <section class="main-section" id="Materials">
+          <header>Materials</header>
+            <p>Gas turbine engines become more efficient when operated at higher temperatures. Modern jet engines already are using today’s materials at the limits of their capability so significant efforts are being made worldwide to develop new options capable of operating at higher service temperatures.</p>
+            <p>Lightweighting design is an extensively explored and utilized concept in many industries, especially in aerospace applications, and is associated with the green aviation concept. The contribution of aviation to global warming <code>phenomena</code> and environmental pollution has led to ongoing efforts for the reduction of aviation emissions</p>
+          
+        
+        </section> 
+       </div>
+       <div>
+         <section class="main-section" id="Manufacture">
+           <header>Manufacture</header>
+             <p>Aerospace manufacturing produces parts for aircraft, missiles, and spacecraft. While aerospace fabrication shops may employ many of the same techniques and equipment as other manufacturing operations, aerospace parts manufacturing requires next-level quality standards and considerably more administrative overhead. </p>
+             <p>An aerospace manufacturing shop must be up to date with the latest advancements in machining technology and equipment. CNC machines, multitasking equipment, and automation, such as a flexible manufacturing system, are all parts of a technologically advanced machine shop. High-quality equipment and even live tooling by high-end journeymen machinists can also be part of the fabrication for the aerospace industry.</p>
+             </div>
+         </section> 
+    <nav id="navbar">
+      <header>Aerospace Engineering Technical Doc</header>
+      <ul>
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li>
+          <a class="nav-link" href="#Why_we_need_to_understand_basic_concepts"
+            >Why we need to understand basic concepts</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#Basic_engineering_principles"
+            >Basic engineering principles</a
+          >
+        </li>
+        <li><a class="nav-link" href="#Materials">Materials</a></li>
+        <li><a class="nav-link" href="#Manufacture">Manufacture</a></li>
+        <li>
+   </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+ @media (max-width: 650px) {
+     #ul {
+       flex-direction: column;
+     }
+
+** end of undefined **
+
