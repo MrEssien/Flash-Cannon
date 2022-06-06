@@ -1,0 +1,124 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav id="navbar" class="nav">
+      <ul class="nav-list">
+        <li>
+          <a href="#welcome-section">About</a>
+        </li>
+        <li>
+          <a href="#projects">Work</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <section id="welcome-section" class="welcome-section">
+      <h1>Hello I am Philip Essien</h1>
+      <p> I am a self taught developer and currently a contractor on upwork working aa a web developer</p>
+    </section>
+    
+    <!-- START PROJECTS SECTION -->
+    
+    <section id="projects" class="project-section">
+      <h2>These are my projects</h2>
+
+      <div class="projects-grid">
+        <a
+          href="https://github.com/MrEssien/Flash-Cannon/blob/main/build-a-tribute-page.txt"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="https://wallpapercave.com/wp/wp7422235.jpg"
+            alt="project"
+          />
+          <p class="project-title">
+             Arsenal Tribute Page
+             </p>
+        </a>
+        <a
+          id="profile-link"
+          href="https://github.com/MrEssien"
+          target="_blank"
+          class="contact-details"
+          < class="github"</> GitHub</a>
+         <a href="philip.essien@hotmail.com" class="email">Email<a/>
+      </div>
+    
+    </section>    
+   </body>
+  </html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.4;
+}
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+h1,p,h2{
+  text-align:center;
+  font-family:monospace;
+  color:white;
+}
+html {
+    font-size: 55%;
+}
+.nav{
+  display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background:;
+    box-shadow: 0 2px 0 rgb(0 0 0 / 40%);
+    z-index: 10;
+}
+.nav-list {
+    display: flex;
+    margin-right: -1rem;
+    }
+    .project-image {
+    height: calc(100% - 6.8rem);
+    width: 100%;
+    object-fit: cover;
+}
+ul {
+    list-style: none;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+@media (max-width: 75em)
+html {
+    font-size: 60%;
+}
+
+** end of undefined **
+
